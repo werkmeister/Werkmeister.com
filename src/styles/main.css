@@ -1,0 +1,52 @@
+@import 'font-awesome/css/font-awesome.css';
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  /*height: 100%;*/
+  width: 100%;
+}
+
+section {
+  min-height: 100vh;
+}
+
+section.home {
+  background-image: url(../images/background.png);
+  background-color: #259CB3;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.navigation {
+  background-color: blue;
+  float: right;
+
+  a {
+    color: white;
+    padding: 10px 5px;
+  }
+}

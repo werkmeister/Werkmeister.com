@@ -6,7 +6,7 @@ module.exports = {
   entry: [
     'webpack-dev-server/client?http://localhost:3000',
     'webpack/hot/only-dev-server',
-    './scripts/index'
+    './src/index'
   ],
   output: {
     path: path.join(__dirname, 'dist'),
@@ -29,11 +29,15 @@ module.exports = {
     {
       test: /\.css$/,
       loader: 'style!css?module!postcss'
+    },
+    {
+      test: /\.(jpe?g|png|gif|otf|eot|svg|ttf|woff2?).*$/,
+      loader: 'url'
     }]
   },
   postcss: [
     require('postcss-import')({
-      paths: ['./styles']
+      paths: ['./src/styles']
     }),
     require('postcss-nested'),
     require('cssnext')(),
