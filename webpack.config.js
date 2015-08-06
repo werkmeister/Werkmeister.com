@@ -28,11 +28,18 @@ module.exports = {
     },
     {
       test: /\.css$/,
-      loader: 'style!css?module!postcss'
+      loader: 'style!css!postcss',
+      include: /main\.css$/
+    },
+    {
+      test: /\.css$/,
+      loader: 'style!css?module!postcss',
+      include: /components\.css$/
     },
     {
       test: /\.(jpe?g|png|gif|otf|eot|svg|ttf|woff2?).*$/,
-      loader: 'url'
+      loader: 'url',
+      query: { limit: 10240 }
     }]
   },
   postcss: [
@@ -40,7 +47,7 @@ module.exports = {
       paths: ['./src/styles']
     }),
     require('postcss-nested'),
-    require('cssnext')(),
-    require('csswring')
+    require('cssnext')()
+    // require('csswring')
   ]
 };

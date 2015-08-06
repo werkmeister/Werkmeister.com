@@ -1,8 +1,9 @@
+import '../styles/main.css';
 import React, { Component }   from 'react';
-import { RouteHandler } from 'react-router';
+import { RouteHandler }       from 'react-router';
 import Navigation             from './Navigation';
 import Header                 from './Header';
-import Contact                 from '../pages/contact';
+import Contact                from '../pages/contact';
 
 export default class App extends Component {
   // constructor() {

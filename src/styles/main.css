@@ -26,27 +26,3 @@ body {
 section {
   min-height: 100vh;
 }
-
-section.home {
-  background-image: url(../images/background.png);
-  background-color: #259CB3;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.header {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-}
-
-.navigation {
-  background-color: blue;
-  float: right;
-
-  a {
-    color: white;
-    padding: 10px 5px;
-  }
-}

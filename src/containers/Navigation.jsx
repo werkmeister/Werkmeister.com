@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link }             from 'react-router';
-import styles               from '../styles/main.css';
+import styles               from '../styles/components.css';
 
 export default class Navigation extends Component {
   render() {
