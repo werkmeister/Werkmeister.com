@@ -13,7 +13,8 @@ section.contact {
     position: relative;
     top: 10px;
     font-size: 24px;
-    right: calc(100% - 30px);
+    /*right: calc(100% - 30px);*/
+    right: 20px;
   }
 
   i:hover {
@@ -22,5 +23,10 @@ section.contact {
 
   input {
     display: block;
+    width: calc(100% - 20px);
+    background: #c5c5c5;
+    border: none;
+    height: 25px;
+    margin: 10px;
   }
 }
