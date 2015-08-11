@@ -30,8 +30,8 @@ export default class App extends Component {
       <div>
       <RouteHandler />
       <Tools />
-      <Header />
       <Navigation />
+      <Header />
       </div>
     );
   }
