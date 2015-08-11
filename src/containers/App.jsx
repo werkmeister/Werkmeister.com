@@ -14,11 +14,11 @@ export default class App extends Component {
   //   this.setState({display: !this.state.display});
   // }
 
+      // <Navigation />
   render() {
     return (
       <div>
       <Header />
-      <Navigation />
       <RouteHandler />
       <Tools />
       </div>

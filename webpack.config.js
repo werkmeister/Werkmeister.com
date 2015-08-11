@@ -45,7 +45,7 @@ module.exports = {
   },
   postcss: [
     require('postcss-import')({
-      paths: ['./src/styles']
+      paths: ['./src/styles', './src/pages']
     }),
     require('postcss-nested'),
     require('cssnext')(),
