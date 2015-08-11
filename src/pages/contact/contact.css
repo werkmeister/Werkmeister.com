@@ -1,0 +1,26 @@
+section.contact {
+  position: fixed;
+  width: 25vw;
+  height: 100vh;
+  z-index: 10;
+  /*background-color: #3d3d3d;*/
+  background-color: #2e2e2e;
+  top: 0;
+  right: 0;
+
+  i {
+    color: #c5c5c5;
+    position: relative;
+    top: 10px;
+    font-size: 24px;
+    right: calc(100% - 30px);
+  }
+
+  i:hover {
+    cursor: pointer;
+  }
+
+  input {
+    display: block;
+  }
+}
