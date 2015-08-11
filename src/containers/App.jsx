@@ -8,19 +8,30 @@ import Tools                from '../pages/tools';
 export default class App extends Component {
   // constructor() {
   //   super();
-  //   this.state = {display: false};
+  //   this.state = {background: false};
   // }
   // show() {
-  //   this.setState({display: !this.state.display});
   // }
 
-      // <Navigation />
+  // handleResize() {
+  //   if ( window.scrollY >= window.innerHeight) {
+  //     this.setState({background: !this.state.background});
+  //   }
+  // }
+  // componentDidMount() {
+  //   window.addEventListener('scroll', this.handleResize);
+  // }
+  // componentWillUnmount() {
+  //   window.removeEventListener('scroll', this.handleResize);
+  // }
+
   render() {
     return (
       <div>
-      <Header />
       <RouteHandler />
       <Tools />
+      <Header />
+      <Navigation />
       </div>
     );
   }

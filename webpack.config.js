@@ -34,8 +34,8 @@ module.exports = {
     {
       test: /\.css$/,
       loader: 'style!css?module!postcss',
-      include: /components\.css$/
-      // include: /(pages|containers)/
+      // include: /components\.css$/
+      include: /(pages|containers)/
     },
     {
       test: /\.(jpe?g|png|gif|otf|eot|svg|ttf|woff2?).*$/,

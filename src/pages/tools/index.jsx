@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styles               from './tools.css';
 import backbone             from '../../images/logos/BackBone.svg';
 import bower                from '../../images/logos/Bower.svg';
 import css                  from '../../images/logos/css3.svg';
@@ -13,38 +14,24 @@ import sass                 from '../../images/logos/sass.svg';
 
 
 export default class Tools extends Component {
-
   render() {
-    let headerStyle = {
-      color: '#c5c5c5'
-    };
-
-    let sectionStyle = {
-      maxWidth: '980px',
-      margin: 'auto'
-    };
-
-    let divStyle = {
-      textAlign: 'center'
-    };
-
     return (
-      <section style={sectionStyle}>
-        <h2 style={headerStyle}>
+      <section className={styles.tools}>
+        <h2>
           I prefer writing things by hand. These are the tools I use
         </h2>
-        <div style={divStyle}>
-          <img src={backbone} />
-          <img src={bower} />
-          <img src={css} />
-          <img src={git} />
-          <img src={grunt} />
-          <img src={gulp} />
-          <img src={html} />
+        <div className={styles.images}>
           <img src={javascript} />
-          <img src={npm} />
           <img src={react} />
+          <img src={npm} />
+          <img src={git} />
+          <img src={css} />
+          <img src={html} />
           <img src={sass} />
+          <img src={backbone} />
+          <img src={gulp} />
+          <img src={bower} />
+          <img src={grunt} />
         </div>
       </section>
     );

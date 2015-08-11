@@ -1,0 +1,20 @@
+div.navigation {
+  position: fixed;
+  width: 100%;
+  bottom: 20px;
+  margin: auto;
+  /*color: #c5c5c5;*/
+  font-size: 30px;
+
+  .container {
+    max-width: 1080px;
+    text-align: right;
+    margin: auto;
+
+    i {
+      color: #c5c5c5;
+      padding: 5px;
+      display: block;
+    }
+  }
+}

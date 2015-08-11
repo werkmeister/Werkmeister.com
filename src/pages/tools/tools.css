@@ -1,0 +1,21 @@
+section.tools {
+  max-width: 980px;
+  margin: auto;
+  padding: 100px;
+
+  .images {
+    text-align: center;
+  }
+
+  img {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 120px;
+  }
+
+  h2 {
+    font-size: 48px;
+    color: #595959;
+  }
+}
