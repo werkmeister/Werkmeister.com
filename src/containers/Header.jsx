@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
-// import { Link }             from 'react-router';
-// import logo                 from '../images/logo.svg';
-// import logo                 from '../images/cursivelogo.svg';
 import styles               from './header.css';
 import Contact              from '../pages/contact';
-// import styles               from '../styles/components.css';
 
-        // <Link to="home"><img src={logo}/></Link>
-          // <Link to="contact">Contact</Link>
 export default class Header extends Component {
   constructor() {
     super();
