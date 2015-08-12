@@ -13,7 +13,7 @@ section.contact {
     position: relative;
     top: 10px;
     font-size: 24px;
-    right: calc(100% - 30px);
+    left: 10px;
   }
 
   i:hover {
