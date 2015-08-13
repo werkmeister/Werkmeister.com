@@ -1,16 +1,24 @@
 section.tools {
   max-width: 980px;
   margin: auto;
-  padding: 100px;
+  padding: 100px 20px;
 
   .images {
     text-align: center;
+    width: 70%;
+    float: right;
+  }
+
+  .header {
+    width: 30%;
+    float: left;
   }
 
   img {
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    /*margin-top: 50px;*/
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
     width: 120px;
   }
 

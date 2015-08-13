@@ -17,7 +17,7 @@ export default class Tools extends Component {
   render() {
     return (
       <section className={styles.tools}>
-        <h2>
+        <h2 className={styles.header}>
           I prefer writing things by hand. These are the tools I use
         </h2>
         <div className={styles.images}>

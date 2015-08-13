@@ -15,11 +15,22 @@ ul,
 li {
   margin: 0;
   padding: 0;
+  font-weight: normal;
 }
 
+* {
+  box-sizing: border-box;
+}
 html,
 body {
   /*height: 100%;*/
   width: 100%;
   font-family: 'Halant', serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Lato', sans-serif;
+}
+
+div.app {
+  width: 100%;
+  transition: width .2s ease-in-out;
 }

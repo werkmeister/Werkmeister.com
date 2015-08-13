@@ -1,7 +1,7 @@
 div.header {
   position: fixed;
   width: 100%;
-  padding: 10px 0;
+  padding: 10px 20px;
   top: 0;
 
   .container {
@@ -9,10 +9,19 @@ div.header {
     margin: auto;
     text-align: right;
 
+    img {
+      float: left;
+    }
+
     a {
       text-decoration: none;
-      font-size: 20px;
+      font-size: 18px;
+      text-transform: uppercase;
       color: #c5c5c5;
+    }
+
+    a:hover {
+      color: #259CB3;
     }
   }
 }

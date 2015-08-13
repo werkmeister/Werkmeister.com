@@ -23,13 +23,13 @@ export default class App extends Component {
 
   render() {
     return (
-      <div className={this.state.display ? styles.container : null}>
+      <div className={'app ' + (this.state.display ? styles.container : null)}>
       <RouteHandler />
       <Tools />
       <Navigation />
       <Header open={this.openContact.bind(this)}/>
       {this.state.display ?
-        <Contact close={this.closeContact.bind(this)}/>
+        <Contact close={this.closeContact.bind(this)} />
       : null}
       </div>
     );

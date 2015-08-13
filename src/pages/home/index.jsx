@@ -7,11 +7,11 @@ export default class Home extends Component {
   render() {
     return (
       <section className={styles.home}>
-        <img src={background} />
-        <div className={styles.overflow}/>
         <div className={styles.text}>
           <h4>my name is Josh Werkmeister</h4>
-          <h1>I'm a <span className={styles.underline}>web developer</span></h1>
+          <h1>
+            I'm a web developer from {' '}
+            <span className={styles.underline}>St. Louis</span></h1>
         </div>
       </section>
     );

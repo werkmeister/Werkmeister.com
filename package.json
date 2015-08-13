@@ -1,6 +1,6 @@
 {
   "name": "Werkmeister.com",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Portfolio website",
   "main": "server.js",
   "scripts": {
