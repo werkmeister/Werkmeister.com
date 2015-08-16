@@ -13,7 +13,6 @@ export default class Header extends Component {
     return (
       <div className={styles.header}>
         <div className={styles.container}>
-          <img src={logo} />
           <a href="#" onClick={this.props.open}>
             Contact
           </a>

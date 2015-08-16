@@ -1,6 +1,6 @@
 section.contact {
   position: fixed;
-  width: 30vw;
+  width: 35vw;
   height: 100vh;
   z-index: 10;
   /*background-color: #3d3d3d;*/
@@ -8,6 +8,7 @@ section.contact {
   top: 0;
   right: 0;
   padding: 10px;
+  box-shadow: inset 0px 0px 10px black;
 
   i {
     color: #c5c5c5;
@@ -19,7 +20,8 @@ section.contact {
 
   i:hover {
     cursor: pointer;
-    color: #DC7070;
+    /*color: #DC7070;*/
+    color: #259CB3;
   }
 
   input {
