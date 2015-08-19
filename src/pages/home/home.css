@@ -3,29 +3,27 @@ section.home {
   /*background-image: url(../images/imacbackground.jpeg);*/
   background-image: url(../../images/imacbackground.png);
   /*background-color: #259CB3;*/
+  /*background-color: #393942;*/
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden;
-  position: relative;
+  /*overflow: hidden;
+  position: relative;*/
   color: white;
   min-height: 100vh;
 
   h1 {
-    font-size: 86px;
+    font-size: 62px;
     font-weight: normal;
     text-align: left;
-    max-width: 980px;
-    margin: auto;
     padding: 0 20px;
   }
   h4 {
     color: #c5c5c5;
-    font-size: 32px;
+    font-size: 20px;
     font-weight: normal;
     text-align: left;
-    max-width: 980px;
-    margin: auto;
+    max-width: 600px;
     padding: 0 20px;
   }
 
@@ -44,7 +42,10 @@ section.home {
   }
 
   div.text {
-    position: relative;
-    top: 200px;
+    /*position: relative;*/
+    /*top: 200px;*/
+    max-width: 980px;
+    margin: auto;
+    padding-top: 200px;
   }
 }

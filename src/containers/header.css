@@ -1,11 +1,11 @@
 div.header {
   position: fixed;
   width: 100%;
-  padding: 10px 20px;
-  top: 0;
+  padding: 0 20px;
+  top: 20px;
 
   .container {
-    /*max-width: 1080px;*/
+    max-width: 980px;
     margin: auto;
     text-align: right;
 

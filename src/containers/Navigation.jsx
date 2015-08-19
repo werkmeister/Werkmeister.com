@@ -6,6 +6,9 @@ export default class Navigation extends Component {
     return (
       <div className={styles.navigation}>
         <div className={styles.container}>
+          <a href="#" className={styles.something}>
+            About
+          </a>
           <a target="_blank" href="https://github.com/werkmeister">
             <i className="fa fa-github" title="github"></i>
           </a>

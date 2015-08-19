@@ -8,8 +8,10 @@ div.navigation {
 
   .container {
     /*max-width: 1080px;*/
+    max-width: 980px;
     text-align: right;
     margin: auto;
+    position: relative;
 
     a {
       text-decoration: none;
@@ -21,6 +23,20 @@ div.navigation {
     }
 
     i:hover {
+      color: #259CB3;
+    }
+
+    a.something {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      text-decoration: none;
+      font-size: 18px;
+      text-transform: uppercase;
+      color: #c5c5c5;
+    }
+
+    a.something:hover {
       color: #259CB3;
     }
   }

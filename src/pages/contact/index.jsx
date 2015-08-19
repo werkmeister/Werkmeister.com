@@ -10,9 +10,15 @@ export default class Contact extends Component {
     return (
       <section className={styles.contact}>
         <i onClick={this.props.close} className="fa fa-times"></i>
+        <p>Let's talk business</p>
         <input type="text" placeholder="Name"/>
         <input type="text" placeholder="Organization"/>
         <input type="text" placeholder="Message"/>
+        <div style={{textAlign: 'center'}}>
+          <button form="emailForm" className={styles.submit}>
+            <i className="fa fa-paper-plane-o"></i>
+          </button>
+        </div>
       </section>
     );
   }

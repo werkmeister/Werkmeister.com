@@ -1,6 +1,7 @@
 section.contact {
   position: fixed;
-  width: 35vw;
+  /*width: 35vw;*/
+  width: 40vw;
   height: 100vh;
   z-index: 10;
   /*background-color: #3d3d3d;*/
@@ -8,7 +9,15 @@ section.contact {
   top: 0;
   right: 0;
   padding: 10px;
-  box-shadow: inset 0px 0px 10px black;
+  padding-right: 15px;
+  box-shadow: 0px 0px 10px black;
+
+  p {
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    padding: 10px 0;
+  }
 
   i {
     color: #c5c5c5;
@@ -34,5 +43,14 @@ section.contact {
     padding-left: 10px;
     font-size: 16px;
     margin: 10px 0;
+  }
+
+  button.submit {
+    background: none;
+    border: none;
+
+    i {
+      font-size: 32px;
+    }
   }
 }
