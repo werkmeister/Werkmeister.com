@@ -4,7 +4,6 @@ import React, { Component }   from 'react';
 import { RouteHandler }       from 'react-router';
 import Navigation             from './Navigation';
 import Header                 from './Header';
-import Tools                  from '../pages/tools';
 import Contact                from '../pages/contact';
 
 export default class App extends Component {
@@ -25,7 +24,6 @@ export default class App extends Component {
     return (
       <div className={'app ' + (this.state.display ? styles.container : null)}>
       <RouteHandler />
-      <Tools />
       <Navigation />
       <Header open={this.openContact.bind(this)}/>
       {this.state.display ?

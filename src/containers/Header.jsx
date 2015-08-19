@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import { Link }             from 'react-router';
 import styles               from './header.css';
-import logo                from '../images/logos/trianglelogo.svg';
+import logo                 from '../images/logos/trianglelogo.svg';
 
 export default class Header extends Component {
   static propTypes = {
@@ -12,9 +13,7 @@ export default class Header extends Component {
     return (
       <div className={styles.header}>
         <div className={styles.container}>
-
-          <img src={logo} style={{width: '30px'}}/>
-
+          <Link to="home"><img src={logo} style={{width: '30px'}}/></Link>
           <a href="#" onClick={this.props.open}>
             Contact
           </a>
