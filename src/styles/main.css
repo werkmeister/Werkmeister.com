@@ -1,5 +1,52 @@
 @import 'font-awesome/css/font-awesome.css';
 
+/* normalize */
+* {
+  box-sizing: border-box;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  /*height: 100%;*/
+  width: 100%;
+  /*font-family: 'Halant', serif;*/
+  /*font-family: 'Open Sans', sans-serif;*/
+  /*font-family: 'Lato', sans-serif;*/
+  /*font-family: 'Maven Pro', sans-serif;*/
+  font-family: 'Mako', sans-serif;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+
+}
+
+p {
+  font-size: 1.25em;
+}
+/*
 html,
 body,
 h1,
@@ -16,19 +63,7 @@ li {
   margin: 0;
   padding: 0;
   font-weight: normal;
-}
-
-* {
-  box-sizing: border-box;
-}
-html,
-body {
-  /*height: 100%;*/
-  width: 100%;
-  font-family: 'Halant', serif;
-  /*font-family: 'Open Sans', sans-serif;*/
-  font-family: 'Lato', sans-serif;
-}
+}*/
 
 /*div.app {
   width: 100%;

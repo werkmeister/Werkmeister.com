@@ -6,6 +6,7 @@ export default class Home extends Component {
   render() {
     return (
             // <span className={styles.underline}>St. Louis</span></h1>
+            // as eligantly on the inside as they are on the outside
       <section>
         <section className={styles.home}>
           <div className={styles.text}>
@@ -14,7 +15,7 @@ export default class Home extends Component {
             </h1>
             <h4>
               dedicated to building websites and applications {' '}
-              just as elegant on the inside as they are on the outside
+              elegantly from the inside out
             </h4>
           </div>
         </section>

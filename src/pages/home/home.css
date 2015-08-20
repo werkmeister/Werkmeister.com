@@ -13,8 +13,8 @@ section.home {
   min-height: 100vh;
 
   h1 {
-    font-size: 62px;
-    font-weight: normal;
+    /*font-size: 62px;
+    font-weight: normal;*/
     text-align: left;
     padding: 0 20px;
   }
@@ -25,6 +25,8 @@ section.home {
     text-align: left;
     max-width: 600px;
     padding: 0 20px;
+    /*letter-spacing: 0.4px;*/
+    line-height: 1.5em;
   }
 
   .underline {
@@ -42,10 +44,10 @@ section.home {
   }
 
   div.text {
-    /*position: relative;*/
-    /*top: 200px;*/
+    position: relative;
+    top: 40vh;
     max-width: 980px;
     margin: auto;
-    padding-top: 200px;
+    /*padding-top: 200px;*/
   }
 }
