@@ -1,7 +1,7 @@
 section.about {
   max-width: 980px;
   margin: auto;
-  /*padding-top: 100px;*/
+  padding: 0 20px;
 
   div.item {
     margin-top: 125px;

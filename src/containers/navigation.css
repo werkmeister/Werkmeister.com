@@ -12,6 +12,7 @@ div.navigation {
     text-align: right;
     margin: auto;
     position: relative;
+    padding: 0 20px;
 
     a {
       text-decoration: none;
@@ -28,7 +29,7 @@ div.navigation {
 
     a.link {
       position: absolute;
-      left: 0;
+      left: 20px;
       bottom: 0;
       text-decoration: none;
       font-size: 18px;

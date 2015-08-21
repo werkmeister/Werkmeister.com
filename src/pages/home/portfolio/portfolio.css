@@ -1,0 +1,33 @@
+section.portfolio {
+  /*background-color: #787878;*/
+
+  /*.container {*/
+    max-width: 980px;
+    margin: auto;
+    paddint-top: 100px;
+    padding: 20px;
+
+    h1 {
+      color: #595959;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    h4 {
+      text-align: center;
+      padding-top: 75px;
+      padding-bottom: 25px;
+      color: #595959;
+    }
+
+    p {
+      color: #787878;
+      padding-bottom: 25px;
+      max-width: 37.5em;
+      text-align: center;
+      margin: auto;
+    }
+  /*}*/
+}

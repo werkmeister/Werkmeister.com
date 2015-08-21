@@ -6,6 +6,7 @@ div.header {
 
   .container {
     max-width: 980px;
+    padding: 0 20px;
     margin: auto;
     text-align: right;
 

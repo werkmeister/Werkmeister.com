@@ -6,12 +6,13 @@ section.tools {
   .images {
     text-align: center;
     width: 70%;
-    float: right;
+    display: inline-block;
   }
 
   .header {
+    vertical-align: top;
     width: 30%;
-    float: left;
+    display: inline-block;
   }
 
   img {
@@ -20,6 +21,7 @@ section.tools {
     margin-left: 20px;
     margin-right: 20px;
     /*width: 120px;*/
+    vertical-align: middle;
     width: 85px;
   }
 

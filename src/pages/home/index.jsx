@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Tools                from './tools';
+import Portfolio            from './portfolio';
 import styles               from './home.css';
 
 export default class Home extends Component {
@@ -20,6 +21,7 @@ export default class Home extends Component {
           </div>
         </section>
         <Tools />
+        <Portfolio />
       </section>
     );
   }
