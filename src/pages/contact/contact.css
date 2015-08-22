@@ -1,11 +1,14 @@
 section.contact {
   position: fixed;
   /*width: 35vw;*/
-  width: 40vw;
+  /*width: 40vw;*/
+  width: 100vw;
   height: 100vh;
   z-index: 10;
   /*background-color: #3d3d3d;*/
-  background-color: #2e2e2e;
+  /*background-color: #2e2e2e;*/
+  /*background-color: rgba(255,255,255, .9);*/
+  background-color: #ffffff;
   top: 0;
   right: 0;
   padding: 10px;
@@ -14,6 +17,7 @@ section.contact {
 
   p {
     color: #ffffff;
+    color: #595959;
     font-size: 28px;
     text-align: center;
     padding: 10px 0;
@@ -24,7 +28,8 @@ section.contact {
     position: relative;
     top: 0;
     font-size: 24px;
-    left: 0;
+    /*left: 0;*/
+    /*right: 0;*/
   }
 
   i:hover {
@@ -34,15 +39,17 @@ section.contact {
   }
 
   input {
+    /*max-width: 980px;*/
     display: block;
     /*width: calc(100% - 20px);*/
+    border: 2px solid #595959;
     width: 100%;
     background: white;
-    border: none;
+    /*border: none;*/
     height: 50px;
     padding-left: 10px;
     font-size: 16px;
-    margin: 10px 0;
+    margin: 10px auto;
   }
 
   button.submit {
