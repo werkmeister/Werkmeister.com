@@ -4,10 +4,8 @@ div.navigation {
   bottom: 20px;
   margin: auto;
   font-size: 30px;
-  padding: 0 20px;
 
   .container {
-    /*max-width: 1080px;*/
     max-width: 980px;
     text-align: right;
     margin: auto;
