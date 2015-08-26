@@ -10,10 +10,7 @@ export default class About extends Component {
         <div className={styles.item}>
           <h5>About -</h5>
           <p>
-            I'm Josh Werkmeister, a Software Developer from St. Louis, MO
-            specializing in front end technologies. I work in a coorporate
-            setting during the day and in my house at night. I'm always studying
-            the newest technologies and looking for projects to apply my skills.
+            I'm Josh Werkmeister
           </p>
         </div>
         <div className={styles.item}>

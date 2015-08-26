@@ -10,9 +10,7 @@ export default class Portfolio extends Component {
         <h1>Portfolio</h1>
         <h4>Anchoripple</h4>
         <p>
-          Lead Front-End developer for the Anchoripple organization. Given
-          sketch designs and provided pixel perfect html and css. Based off
-          a Yeoman generator built with gulp, bootstrap sass, and modernizer.
+          Front-End developer
         </p>
         <img src={ancho} />
         <h4>Twist-N-Fish</h4>
